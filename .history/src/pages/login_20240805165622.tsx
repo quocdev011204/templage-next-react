@@ -1,9 +1,13 @@
 'use client'
+import { NextPage } from 'next'
 import Head from 'next/head'
-import CustomTextField from 'src/components/text-field'
-import Box from '@mui/material/Box';
+import { types } from 'util'
 
-export default function Home() {
+type TProps = {
+  
+}
+
+const Login: NextPage<TProps> = () => {
   return (
     <>
       <Head>
