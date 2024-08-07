@@ -13,7 +13,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Box sx={ {margin: 6, width: "200px"} }>
-        <CustomTextField id="outlined-basic" label="Outlined" />
+        <CustomTextField id="outlined-basic" label="Outlined" variant="outlined" />
       </Box>
     </>
   )

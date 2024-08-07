@@ -4,6 +4,9 @@ import CustomTextField from 'src/components/text-field'
 import Box from '@mui/material/Box';
 
 export default function Home() {
+
+
+
   return (
     <>
       <Head>
@@ -13,7 +16,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Box sx={ {margin: 6, width: "200px"} }>
-        <CustomTextField id="outlined-basic" label="Outlined" />
+        <CustomTextField  id="filled-basic" label="Filled" variant="filled"></CustomTextField>
       </Box>
     </>
   )
